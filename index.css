@@ -1,0 +1,66 @@
+/* // design for all */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #401F3E;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+  height: 60vmin;
+  width: 60vmin; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2vmin;
+}
+.box{
+    /* height of game will devided into 3 equal parts in buttons  */
+     height: 18vmin;
+     width: 18vmin;
+     border-radius: 20px;
+     border-color: red;
+     box-shadow:1.3px 2px  gray;
+     font-size: 70px;
+     color: #401F3E;
+     background-color:lightskyblue;   
+}
+.btn{
+    padding: 15px;
+    background-color: pink;
+    color: black;
+    font-style: oblique;
+    border-radius: 10px;
+}
+.msgcont{
+    height: 70vmin;
+    column-gap: 90px;
+}
+.msg{
+    margin-top: 300px;
+    padding-left: 20px;
+    font-size: 5vmin;
+}
+
+.newbtn{
+    
+    padding: 15px;
+    background-color: pink;
+    color: black;
+    font-style: oblique;
+    border-radius: 10px;
+}
+.hide{
+    display: none;
+}
+
